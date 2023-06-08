@@ -1,4 +1,5 @@
 const {
+  AccountId,
   ContractCreateFlow,
   ContractExecuteTransaction,
   ContractFunctionParameters,
@@ -24,15 +25,15 @@ const Contract = async (client, bytecode) => {
         .addString("Name") // NFT name
         .addString("Symbol") // NFT symbol
         .addString("memo") // NFT memo
-        .addUint32(250) // NFT max supply
-        .addUint32(7000000) // Expiration: Needs to be between 6999999 and 8000001
+        .addInt64(250) // NFT max supply
+        .addInt64(7000000) // Expiration: Needs to be between 6999999 and 8000001
     );
   const createTokenTx = await createToken.execute(client);
   const createTokenRx = await createTokenTx.getRecord(client);
   const tokenIdSolidityAddr = createTokenRx.contractFunctionResult.getAddress(0);
   const tokenId = AccountId.fromSolidityAddress(tokenIdSolidityAddr);
   console.log(`tokenId: ${tokenId}`);
-
+  return tokenId;
 }
 
 module.exports = Contract;
