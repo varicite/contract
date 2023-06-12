@@ -17,8 +17,6 @@ const func = (async () => {
     const contractId = await contract(client, bytecode);
     const { tokenId, tokenIdSolidityAddr } = await createNFT(client, contractId);
     const serial = await mintNFT(client, contractId, tokenIdSolidityAddr)
-    console.log(`Contract created with ID:: ${contractId}`);
-    console.log(`X: ${tokenId}`);
-    console.log(`Y: ${serial}`);
+    console.log(`ContractID : ${contractId} : tokenId: ${tokenId} : serial: ${serial}`);
     process.exit(1)
 })()
