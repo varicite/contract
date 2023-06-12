@@ -3,7 +3,7 @@ const { AccountId,
     PrivateKey,
     Client,
 } = require('@hashgraph/sdk');
-require('dotenv').config({ path:  '../.env' });
+require('dotenv').config({ path: '../.env' });
 
 const contract = require('./contractNFT');
 const createNFT = require('./createNFT');
@@ -16,7 +16,13 @@ const bytecode = fs.readFileSync('../binaries/NFTCreator_sol_NFTCreator.bin');
 
 const func = (async () => {
     const contractId = await contract(client, bytecode);
-    const { tokenId, tokenIdSolidityAddr } = await createNFT(client, contractId);
+    const { tokenId, tokenIdSolidityAddr } = await createNFT(
+        client,
+        contractId,
+        'Varicite Logos',
+        'VARICITE_LOGO',
+        'A collection of Varicite logos'        
+    );
     const serial = await mintNFT(client, contractId, tokenIdSolidityAddr)
     console.log(`ContractID : ${contractId} : tokenId: ${tokenId} : serial: ${serial}`);
     process.exit(1)
