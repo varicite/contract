@@ -1,5 +1,8 @@
 {
   "name": "Varicite Logo",
+  "properties": {
+    "description": "Logo A"
+  },
   "type": "image/svg+xml",
   "creator": "Varicite",
   "image": "https://bafybeihvoi4kqn7pwxro26whw5qf2cjrtz2ohzwep6gkq2gkq276eo3cqm.ipfs.dweb.link/logo.svg"
