@@ -4,9 +4,7 @@ const {
     Hbar,
   } = require('@hashgraph/sdk');
   
-  const mintNFT = async (client, contractId, tokenIdSolidityAddr) => {
-    // this need to be a JSON object TODO
-    metadata = 'bafybeih7peh6mbh63iwmx6n3jallwad3sfdh6sp7qfet7nxn6fedae5zd4'
+  const mintNFT = async (client, contractId, tokenIdSolidityAddr, metadata) => {
     const mintToken = new ContractExecuteTransaction()
       .setContractId(contractId)
       .setGas(4000000)
