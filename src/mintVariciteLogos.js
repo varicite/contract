@@ -15,9 +15,9 @@ const logoC = require('./meta-data/logo-c.json')
 // const logoMetaData = [logoA, logoB, logoC];
 // a series of IPFS URLS
 const logoMetaData = [
-	'ipfs://bafybeiamo6lhgvzth4ooktomqxn2vjtj22qviwcxop2istcmnthgnycsiq',
-	'ipfs://bafybeibq4wcqcbo5uzcyudyxnog5zih4iqbuhdhjbk62axvusfsh3ftzsq',
-	'ipfs://bafybeig4vtfh4aqticfcwyso2brpyy6a3zhd32i45qd5grbv7l7cesygx4'
+	'ipfs://bafybeiea52yxiyue4tcmamnui3pkgik6yhafx4cirahvnj7ujphxt24icm',
+	'ipfs://bafybeiaav2scs2cfgqpajgysz43d7bstyn45apugvhivsxx4e266bazvmy',
+	'ipfs://bafybeihou6shq3d5bwpz3f4f7e2wa76cybgjt2dcr2ytjmfqalaxlwnxmm'
 ];
 const operatorKey = PrivateKey.fromString(process.env.PRIVATE_KEY);
 const operatorId = AccountId.fromString(process.env.ACCOUNT_ID);
