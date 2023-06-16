@@ -1,0 +1,21 @@
+{
+  "name": "Varicite Fob",
+  "description": "Black plastic fob with Spiral design",
+  "type": "object",
+  "creator": "Varicite",
+  "image": "https://ipfs.io/ipfs/bafkreidtoycctoduzsvjewhw24gmqhdpmrkbi5soffzh6urj2peb25dymy?filename=fob-spiral-clear.jpg",
+  "properties": {
+    "shape": {
+      "type": "disk",
+      "radius": "30mm",
+      "depth": "6mm"
+    },
+    "color": "clear",
+    "material": "plastic",
+    "method_of_construction": "laser cut acrylic",
+    "city_of_creation": "Cleveland",
+    "state_of_creation": "Ohio",
+    "country_of_creation": "United States of America",
+    "weight": "15 grms"
+  }
+}
