@@ -1,0 +1,23 @@
+{
+  "name": "Varicite Fob",
+  "description": "Clear plastic fob with spiral design",
+  "type": "object",
+  "creator": "Varicite",
+  "image": "XXX",
+  "properties": {
+    "generation_code": "XXX",
+    "output_code": "XXX",
+    "shape": {
+      "type": "disk",
+      "radius": "30mm",
+      "depth": "6mm"
+    },
+    "color": "clear",
+    "material": "plastic",
+    "method_of_construction": "laser cut acrylic",
+    "city_of_creation": "Cleveland",
+    "state_of_creation": "Ohio",
+    "country_of_creation": "United States of America",
+    "weight": "15 grms"
+  }
+}
