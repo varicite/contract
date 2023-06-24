@@ -4,3 +4,22 @@ mint:
 6.24.2023
 
 ContractID : 0.0.14971695, tokenId: 0.0.14974334, serial:  1
+
+>node mint.js  2
+ContractID : 0.0.14971695, tokenId: 0.0.14978344, serial:  1
+>node mint.js  3
+ContractID : 0.0.14971695, tokenId: 0.0.14978348, serial:  1
+>node mint.js  4
+ContractID : 0.0.14971695, tokenId: 0.0.14978350, serial:  1
+>node mint.js  5
+ContractID : 0.0.14971695, tokenId: 0.0.14978351, serial:  1
+>node mint.js  6
+ContractID : 0.0.14971695, tokenId: 0.0.14978352, serial:  1
+>node mint.js  7
+ContractID : 0.0.14971695, tokenId: 0.0.14978353, serial:  1
+>node mint.js  8
+ContractID : 0.0.14971695, tokenId: 0.0.14978354, serial:  1
+>node mint.js  9
+ContractID : 0.0.14971695, tokenId: 0.0.14978355, serial:  1
+>node mint.js  10
+ContractID : 0.0.14971695, tokenId: 0.0.14978356, serial:  1
