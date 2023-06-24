@@ -2,3 +2,5 @@ contractId : 0.0.14971695
 
 mint:
 6.24.2023
+
+ContractID : 0.0.14971695, tokenId: 0.0.14974334, serial:  1
