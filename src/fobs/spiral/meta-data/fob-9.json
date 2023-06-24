@@ -1,0 +1,23 @@
+{
+  "name": "Varicite Fob",
+  "description": "Clear plastic fob with spiral design",
+  "type": "object",
+  "creator": "Varicite",
+  "image": "https://bafybeie7j7a4j3bf46vpl6432a6ifxfdrn2cucv4p2xzcsgzuigx4ckgp4.ipfs.w3s.link/fob-9.png",
+  "properties": {
+    "series_number": 9,
+    "generation_code_location": "https://github.com/varicite/pattern/blob/hedera-tutor/src/spiral/spiral.py",
+    "data_location": "https://github.com/varicite/pattern/blob/hedera-tutor/src/spiral/data-9",
+    "svg_file_location": "https://github.com/varicite/pattern/blob/hedera-tutor/src/spiral/spiral-9.svg",
+    "shape": {
+      "type": "disk",
+      "radius": "40mm",
+      "depth": "6mm"
+    },
+    "color": "clear",
+    "material": "plastic",
+    "method_of_construction": "laser cut acrylic",
+    "city_of_creation": "Cleveland",
+    "country_of_creation": "United States of America"
+  }
+}
